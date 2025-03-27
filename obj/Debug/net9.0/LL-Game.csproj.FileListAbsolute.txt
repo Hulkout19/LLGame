@@ -1,0 +1,15 @@
+/Users/svenbroman/LL-Game/LLGame/bin/Debug/net9.0/LL-Game
+/Users/svenbroman/LL-Game/LLGame/bin/Debug/net9.0/LL-Game.deps.json
+/Users/svenbroman/LL-Game/LLGame/bin/Debug/net9.0/LL-Game.runtimeconfig.json
+/Users/svenbroman/LL-Game/LLGame/bin/Debug/net9.0/LL-Game.dll
+/Users/svenbroman/LL-Game/LLGame/bin/Debug/net9.0/LL-Game.pdb
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.AssemblyInfoInputs.cache
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.AssemblyInfo.cs
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.csproj.CoreCompileInputs.cache
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.sourcelink.json
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.dll
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/refint/LL-Game.dll
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.pdb
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/LL-Game.genruntimeconfig.cache
+/Users/svenbroman/LL-Game/LLGame/obj/Debug/net9.0/ref/LL-Game.dll
