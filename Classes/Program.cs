@@ -3,17 +3,17 @@
 Console.WriteLine("Hello, World!");
 Deck myDeck = new Deck();
 // string[] drawPile = myDeck.GetDrawPile();
-List<int> discardPile = myDeck.GetDiscardPile();
-myDeck.Shuffle();
+// myDeck.Shuffle();
 List<string> shuffled = myDeck.GetShuffledPile();
 
-// for (int i = 0; i < drawPile.Length; i++)
-// {
-//     Console.WriteLine(drawPile[i]);
-// }
-
-System.Console.WriteLine("Shuffled Length = " + shuffled.Count);
 for (int i = 0; i < shuffled.Count; i++)
 {
     Console.WriteLine(shuffled[i]);
 }
+
+for (int i = 0; i < 17; i++)
+{
+    System.Console.WriteLine("Your card is:" + myDeck.Draw());
+}
+
+System.Console.WriteLine("Shuffled Length = " + shuffled.Count);

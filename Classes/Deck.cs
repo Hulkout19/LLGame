@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 
+
 class Deck
 {
     
@@ -7,27 +8,25 @@ class Deck
     private List<string> drawPile = new List<string>(18);
 
     private List<string> shuffledDeck = new List<string>(17);
-    List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
-    private string[] discardPile = new string[18];
+    private List<string> discardedDeck = new List<string>(17);
+
+    public List<Player> playerList = new List<Player>();
 
     public Deck()
     {
         Random rnd = new Random();
         int random  = rnd.Next(0, 18);
-        drawPile = ["1","1","1","1","1","2","2","3","3","4","4","5","5","6","6","7","8","9"];
+        this.drawPile = ["1","1","1","1","1","2","2","3","3","4","4","5","5","6","6","7","8","9"];
 
         this.removedCard = drawPile[random];
         drawPile.RemoveAt(random);
-        System.Console.WriteLine(drawPile);
+        Shuffle();
 
     }
        
-    // public string[] GetDrawPile(){
-    //     return drawPile;
-    // }
 
-    public List<int> GetDiscardPile(){
-        return numbers;
+    public List<string> GetDiscardPile(){
+        return discardedDeck;
     }
 
     public List<string> GetShuffledPile(){
@@ -35,13 +34,14 @@ class Deck
     }
 
     public string Draw(){
-        Random randomCard = new Random();
-        int random = randomCard.Next(-1, 19);
-        return "yes";
+        string drawnCard;
+        drawnCard = shuffledDeck[0];
+        shuffledDeck.RemoveAt(0);
+        return drawnCard;
     }
 
     public void Discard(string card){
-        discardPile.Append(card);
+        discardedDeck.Add(card);
     }
 
     public void Shuffle(){

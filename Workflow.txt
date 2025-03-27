@@ -3,9 +3,9 @@ Initially this will be a one player vs. one Opponenet game;
 Deck.cs
 
 Constructor:
-1. Shuffles - (recursivley splits and combines?)
-2. Removes one random card
-3. Deals a card to each player
+1. Shuffles - (recursivley splits and combines?) Done
+2. Removes one random card Done
+3. Deals a card to each player 
 4. Randomly assigns first player
 
 Draw:
@@ -25,5 +25,5 @@ Constructor:
 1. Player number assignment
 
 Future releases:
-Should include miltiple Opponent functionality (up to 3)
+Should include multiple Opponent functionality (up to 3)
 Multiple players on a shared server
