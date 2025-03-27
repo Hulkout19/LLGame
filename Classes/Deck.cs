@@ -23,6 +23,13 @@ class Deck
         Shuffle();
 
     }
+
+    public void Deal(){
+        for (int i = 0; i < playerList.Count; i++)
+        {
+            playerList[i].setHeldCard(Draw());
+        }
+    }
        
 
     public List<string> GetDiscardPile(){
@@ -37,6 +44,7 @@ class Deck
         string drawnCard;
         drawnCard = shuffledDeck[0];
         shuffledDeck.RemoveAt(0);
+
         return drawnCard;
     }
 

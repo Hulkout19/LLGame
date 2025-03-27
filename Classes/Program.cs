@@ -17,3 +17,8 @@ for (int i = 0; i < 17; i++)
 }
 
 System.Console.WriteLine("Shuffled Length = " + shuffled.Count);
+
+
+Player player1 = new Player("Sven", false);
+Player player2 = new Player("Haleigh", true);
+List<Player> playerList = new List<Player> {player1,player2};
