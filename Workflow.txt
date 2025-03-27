@@ -1,0 +1,29 @@
+Initially this will be a one player vs. one Opponenet game;
+
+Deck.cs
+
+Constructor:
+1. Shuffles - (recursivley splits and combines?)
+2. Removes one random card
+3. Deals a card to each player
+4. Randomly assigns first player
+
+Draw:
+Draw first card from shuffled Deck
+
+Discarded Deck:
+"Easy mode" keeps track of discarded Deck
+
+Player.cs
+Member fields: Held Card, Drawn Card;
+Constructor:
+1. Player number assignment
+
+Opponenet.cs:
+Member fields: Held Card, Drawn Card, Confidence score;
+Constructor:
+1. Player number assignment
+
+Future releases:
+Should include miltiple Opponent functionality (up to 3)
+Multiple players on a shared server
