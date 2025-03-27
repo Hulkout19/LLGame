@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LL-Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+110f1a2aa9a40228dc6c0ed2ef1e956c809fb299")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b3e604fcec34d5fe3e3e869b64bb74cd5540909")]
 [assembly: System.Reflection.AssemblyProductAttribute("LL-Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LL-Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
