@@ -22,3 +22,5 @@ System.Console.WriteLine("Shuffled Length = " + shuffled.Count);
 Player player1 = new Player("Sven", false);
 Player player2 = new Player("Haleigh", true);
 List<Player> playerList = new List<Player> {player1,player2};
+
+Turn turn1 = new Turn(player1,player2,"2");

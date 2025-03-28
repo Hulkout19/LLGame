@@ -10,12 +10,17 @@ private int confidenceScore;
 
 private bool isBot;
 
+private bool isActive;
+
 public Player(string name, bool bot)
 {
     this.name = name;
     this.isBot = bot;
 }
 
+public void setActive(bool newActive){
+    this.isActive = newActive;
+}
 public void setHeldCard(string card){
     this.heldCard = card;
 }
