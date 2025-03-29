@@ -3,6 +3,10 @@ class Turn{
     Player playPlayer;
 
     Player opponent;
+
+    public string? compareCard;
+
+
     public Turn(Player playPlayer, Player opponent, string playedCard, string? guess)
     {
         this.playPlayer = playPlayer;
@@ -13,12 +17,12 @@ class Turn{
             Guard(guess);
             break;
         case "2":
-            Console.WriteLine("Tuesday");
-            Priest();
+            this.compareCard = Priest();
             break;
         }
     }
 
+    
     public string Guard(string? guess){
         if(guess == opponent.getHeldCard()){
             opponent.setActive(false);
@@ -30,5 +34,5 @@ class Turn{
     public string Priest(){
         return opponent.getHeldCard();
     }
-    
+
 }
